@@ -1,0 +1,12 @@
+{
+    "name": "com.cyberbuggy.interactions",
+    "version": "0.0.1",
+    "displayName": "Loading Screen",
+    "author": {
+        "name": "CyberBuggy"
+    },
+    "description": "Package with premade tools to handle in-game interactions",
+    "dependencies": {
+        "com.unity.inputsystem": "1.3.0"
+     }
+}
