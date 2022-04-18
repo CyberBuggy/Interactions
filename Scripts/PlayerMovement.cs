@@ -8,13 +8,8 @@ namespace CyberBuggy
     public class PlayerMovement : MonoBehaviour
     {
         [SerializeField] private float _moveSpeed = 1f;
+        [SerializeField] private Rigidbody2D _rigidBody;
         private Vector2 _moveInput;
-        private Rigidbody2D _rigidBody;
-
-        private void Start()
-        {
-            _rigidBody = GetComponent<Rigidbody2D>();
-        }
 
         private void FixedUpdate()
         {
