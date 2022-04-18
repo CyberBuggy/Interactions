@@ -18,7 +18,7 @@ namespace CyberBuggy
 
         private void OnMove(InputValue value)
         {
-            this._moveInput = value.Get<Vector2>();
+            _moveInput = value.Get<Vector2>();
         }
     }
 }
